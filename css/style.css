@@ -21,7 +21,6 @@ header {
     top: 0px;
     right: 0px;
     z-index: 999;
-    /* background-color: pink; */
 }
 
 nav {
@@ -34,18 +33,24 @@ nav {
 .nav2 {
     display: flex;
     gap: 30px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
     font-weight: 300;
     font-size: 14px;
 }
 
-.navigatori {
-    /* background-color: red; */
-    padding-top: 4px;
+.li {
+    padding: 5px 10px;
 }
 
 .inizia {
-    display: flex;
-    background-color: blue;
-    align-items: center;
-    vertical-align: middle;
+    background-color: #0061ff;
+    color: white;
+    padding: 5px 15px;
 }
+
+
