@@ -197,7 +197,7 @@ h3 {
 }
 
 .tariffaspecifica ul li {
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 14px;
     display: flex;
     gap: 10px;
@@ -233,6 +233,70 @@ h4 {
     margin-top: 35px;
     font-size: 14px;
 }
+
+.bigcontainer3 {
+    max-width: 1006px;
+    margin-top: 50px;
+    border: 1px solid #d0d0d3;
+}
+
+
+.hrteam {
+    margin-top: 0;
+}
+
+.cont {
+    max-width: 1006px;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.col1 {
+    width: 70%;
+}
+
+.col2 {
+    width: 30%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    
+}
+
+.uffvendite {
+    background-color:  #0061ff;
+    color: white;
+    text-align: center;
+    padding: 10px 35px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.bigcontainer3 h4 {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.col1 p {
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
