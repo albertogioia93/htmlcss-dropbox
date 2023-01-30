@@ -66,20 +66,57 @@ Main
 --------------------------------------------------
 */
 
-main {
+/* main {
     padding: 80px 0px 0px 0px;
-}
+} */
 
 .jumbo {
     height: 740px;
     width: 100%;
     background-color: #b4d0e7;
     margin: 0 auto;
+    padding-top: 180px;
+    
+    
 }
 
 section {
-    width: 1200px;
+    width: 920px;
     height: 700px;
     background-color: white;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titolo {
+    max-width: 1180px;
     margin: 0 auto;
 }
+
+h1 {
+    max-width: 920px;
+    margin: 0 auto;
+    font-size: 65px;
+    font-weight: 900;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+.box1 {
+    height: 385px;
+    width: 360px;
+    background-color: coral;
+}
+
+.box2 {
+    height: 400px;
+    width: 500px;
+    background-color: brown;
+}
+
+
