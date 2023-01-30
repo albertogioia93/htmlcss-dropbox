@@ -283,6 +283,51 @@ h4 {
     margin-top: 50px;
 }
 
+/*
+--------------------------------------------------
+Sezione 3
+--------------------------------------------------
+*/
+
+.sezione3 {
+    display: flex;
+    max-width: 1006px;
+    margin-top: 150px;
+    margin: 0 auto;
+    gap: 51px;
+}
+
+.minicontainer3 {
+    max-width: 600px;
+}
+
+.minicontainer4 {
+    max-width: 270px;
+    margin-top: 58px;
+}
+
+.partnerp {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.partnerbottom {
+    margin-top: 35px;
+    display: inline-block;
+    padding: 10px 15px;
+    border: 1px solid black;
+    font-size: 14px;
+}
+
+/*
+--------------------------------------------------
+Sezione 4
+--------------------------------------------------
+*/
+
+
+
+
 
 
 
