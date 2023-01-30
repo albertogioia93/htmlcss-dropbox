@@ -373,7 +373,48 @@ Sezione 6
 
 .sezione6 {
     height: 641px;
+    background-color: aqua;
 }
+
+/*
+--------------------------------------------------
+Sezione 7
+--------------------------------------------------
+*/
+
+.sezione7 {
+    background-color: #b4d0e7;
+    padding: 134px;
+}
+
+.bigcontainer7 {
+    margin: 0 auto;
+    max-width: 1006px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.business {
+    max-width: 474px;
+    color: #61082b;
+}
+
+.provagratiscont {
+    max-width: 300px;
+}
+
+.provagratis3 {
+    background-color: white;
+    display: inline-block;
+    padding: 10px 40px;
+}
+
+/*
+--------------------------------------------------
+Sezione 8
+--------------------------------------------------
+*/
+
 
 
 
