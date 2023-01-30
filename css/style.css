@@ -8,7 +8,7 @@ Reset
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*
@@ -39,14 +39,14 @@ nav {
 .nav1,
 .nav2 {
     display: flex;
-    gap: 30px;
+    gap: 20px;
 }
 
 ul {
     display: flex;
     gap: 20px;
     list-style-type: none;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 14px;
 }
 
@@ -66,57 +66,24 @@ Main
 --------------------------------------------------
 */
 
-/* main {
-    padding: 80px 0px 0px 0px;
-} */
+main {
+    margin-top: 80px;
+}
 
 .jumbo {
-    height: 740px;
-    width: 100%;
     background-color: #b4d0e7;
-    margin: 0 auto;
-    padding-top: 180px;
-    
-    
-}
-
-section {
-    width: 920px;
-    height: 700px;
-    background-color: white;
-    margin: 40px auto;
     display: flex;
-    justify-content: space-between;
 }
 
-.titolo {
-    max-width: 1180px;
+.container {
     margin: 0 auto;
+    max-width: 1180px;
 }
 
 h1 {
-    max-width: 920px;
-    margin: 0 auto;
-    font-size: 65px;
-    font-weight: 900;
+    font-size: 77px;
+    font-weight: 800;
 }
 
-img {
-    width: 100%;
-}
-
-
-
-.box1 {
-    height: 385px;
-    width: 360px;
-    background-color: coral;
-}
-
-.box2 {
-    height: 400px;
-    width: 500px;
-    background-color: brown;
-}
 
 
