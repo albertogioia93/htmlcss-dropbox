@@ -73,9 +73,10 @@ main {
 .jumbo {
     background-color: #b4d0e7;
     display: flex;
+    padding-top: 100px;
 }
 
-.container {
+.bigcontainer {
     margin: 0 auto;
     max-width: 1180px;
 }
@@ -84,6 +85,46 @@ h1 {
     font-size: 77px;
     font-weight: 800;
 }
+
+.container {
+    display: flex;
+    max-width: 1180px;
+    margin-top: 73px;
+}
+
+.minicontainer1 {
+    max-width: 360px;
+}
+
+.minicontainer2 {
+    max-width: 787px;
+}
+
+img {
+    width: 100%;
+}
+
+.provagratis {
+    margin-top: 35px;
+    background-color:  #0061ff;
+    color: white;
+    display: inline-block;
+    padding: 15px;
+}
+
+.annullamento {
+    margin-top: 35px;
+}
+
+.icona1 {
+    margin-top: 58px;
+    font-size: 40px;
+}
+
+.pianotariffe {
+    margin-top: 165px;
+}
+
 
 
 
