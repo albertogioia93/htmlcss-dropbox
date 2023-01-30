@@ -70,6 +70,12 @@ main {
     margin-top: 80px;
 }
 
+/*
+--------------------------------------------------
+Jumbotron
+--------------------------------------------------
+*/
+
 .jumbo {
     background-color: #b4d0e7;
     display: flex;
@@ -121,9 +127,51 @@ img {
     font-size: 40px;
 }
 
+/*
+--------------------------------------------------
+Sezione piano tariffe
+--------------------------------------------------
+*/
+
 .pianotariffe {
-    margin-top: 165px;
+    max-width: 1006px;
+    margin: 165px auto;
 }
+
+h2 {
+    font-size: 39px;
+}
+
+.ul2 {
+    display: flex;
+    gap: 45px;
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 70px;
+}
+
+.bigcontainer2 {
+    display: flex;
+    max-width: 1006px;
+    margin-top: 50px;
+    gap: 45px;
+}
+
+.tariffaspecifica {
+    width: calc(100% / 3);
+    border: 1px solid #d0d0d3;
+}
+
+.singolo {
+    text-align: center;
+    padding: 12px 0;
+}
+
+
+
+
+
 
 
 
