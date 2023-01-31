@@ -216,10 +216,14 @@ h3 {
     font-size: 14px;
 }
 
-.link,
-hr {
+.link {
     font-size: 14px;
     margin-top: 35px;
+}
+
+.dettaglitariffa hr {
+    margin-top: 35px;
+    width: 50px;
 }
 
 h4 {
