@@ -8,6 +8,9 @@ Reset
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -79,12 +82,13 @@ Jumbotron
 .jumbo {
     background-color: #b4d0e7;
     display: flex;
-    padding-top: 100px;
 }
 
 .bigcontainer {
     margin: 0 auto;
     max-width: 1180px;
+    position: relative;
+    bottom: -80px;
 }
 
 h1 {
@@ -134,7 +138,7 @@ Sezione piano tariffe
 */
 
 .pianotariffe {
-    max-width: 1006px;
+    max-width: 1000px;
     margin: 165px auto;
 }
 
@@ -153,7 +157,7 @@ h2 {
 
 .bigcontainer2 {
     display: flex;
-    max-width: 1006px;
+    max-width: 1000px;
     margin-top: 50px;
     gap: 45px;
 }
@@ -235,7 +239,7 @@ h4 {
 }
 
 .bigcontainer3 {
-    max-width: 1006px;
+    max-width: 1000px;
     margin-top: 50px;
     border: 1px solid #d0d0d3;
 }
@@ -246,7 +250,7 @@ h4 {
 }
 
 .cont {
-    max-width: 1006px;
+    max-width: 1000px;
     display: flex;
     padding: 30px;
     justify-content: space-between;
@@ -291,7 +295,7 @@ Sezione 3
 
 .sezione3 {
     display: flex;
-    max-width: 1006px;
+    max-width: 1000px;
     margin-top: 150px;
     margin: 0 auto;
     gap: 51px;
@@ -326,13 +330,13 @@ Sezione 4
 */
 
 .titolosez4 {
-    max-width: 1006px;
+    max-width: 1000px;
     margin: 170px auto;
     margin-bottom: 70px;
 }
 
 .bigcontainer4 {
-    max-width: 1006px;
+    max-width: 1000px;
     margin: 20px auto;
     display: flex;
     flex-wrap: wrap;
@@ -355,7 +359,7 @@ Sezione 5
 */
 
 .sezione5 {
-    max-width: 1006px;
+    max-width: 1000px;
     margin: 210px auto;
 }
 
@@ -371,9 +375,27 @@ Sezione 6
 --------------------------------------------------
 */
 
-.sezione6 {
-    height: 641px;
-    background-color: aqua;
+
+.sponsorcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% / 3);
+    height: calc(100vw /3);
+}
+
+.sponsor4 {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.logosponsor {
+    width: 50%;
+    filter: invert(1);
 }
 
 /*
@@ -389,7 +411,7 @@ Sezione 7
 
 .bigcontainer7 {
     margin: 0 auto;
-    max-width: 1006px;
+    max-width: 1000px;
     display: flex;
     justify-content: space-between;
 }
