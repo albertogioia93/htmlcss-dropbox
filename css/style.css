@@ -493,6 +493,34 @@ Sezione 8
 --------------------------------------------------
 */
 
+.sezione8 {
+    max-width: 1000px;
+    margin: 160px auto;
+}
+
+.sezione8 h2 {
+    margin-bottom: 60px;
+}
+
+.sezione8 hr {
+    margin-top: 44px;
+}
+
+.faq {
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq h4 {
+    font-size: 16px;
+    margin-top: 44px;
+}
+
+.faq i {
+    margin-top: 44px;
+    padding: 0px 35px;
+}
+
 
 
 
