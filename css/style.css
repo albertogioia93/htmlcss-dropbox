@@ -431,11 +431,12 @@ Sezione 6
 
 .sponsorvuoto hr {
     width: 100px;
+    margin-top: 35px;
 }
 
 .sponsorvuoto p {
-    font-size: 15px;
-    margin-top: 40px;
+    font-size: 14px;
+    margin-top: 35px;
 }
 
 #designit {
