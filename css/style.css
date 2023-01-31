@@ -521,6 +521,61 @@ Sezione 8
     padding: 0px 35px;
 }
 
+/*
+--------------------------------------------------
+Footer
+--------------------------------------------------
+*/
+
+footer {
+    background-color: black;
+}
+
+.links {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 102px;
+    padding-top: 105px;
+}
+
+.contatti {
+    width: calc(100% / 5);
+}
+.contatti ul {
+    list-style-type: none;
+}
+
+.contatti ul li {
+    color: white;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.contatti ul li h4 {
+    margin-top: 0px;
+    font-size: 22px;
+    margin-bottom: 39px;
+}
+
+.language {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.language div {
+    color: grey;
+}
+
+.language hr {
+    width: 125px;
+    border: 1px solid white;
+    margin: 50px 0;
+}
+
+
+
 
 
 
